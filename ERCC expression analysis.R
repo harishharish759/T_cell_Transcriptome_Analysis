@@ -3,6 +3,8 @@
 library(DESeq2)
 
 #read the ERCC sample table, "sample_sheet_ercc.txt"
+# add a comment
+
 
 sampletable <- read.table('sample_sheet_ercc.txt', header=T, sep="\t") # add the path to sample_table.txt here
 
