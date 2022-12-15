@@ -1,14 +1,10 @@
 #to create raw count files with HGNC symbol from raw count files with ensembl ID#
 
-#set the working directory and add raw count files in the folder "counts"
+#read the ensembl ID of transcripts present in raw counts file
 
-setwd("G:/RNAseq analysis/counts")
+ensembl_ids <- read.csv("2-1.ReadsPerGeneCol4.tab", sep="\t", header = FALSE)[,1]
 
-#call for one of the raw count file with ensembl ID from the folder "counts/ensembl_id"
-
-ensembl_ids <- read.csv("counts/ensembl_id/2-1.ReadsPerGeneCol4.hg38.tab", sep="\t", header = FALSE)[,1]
-
-#create a list of HGNC symbol for the respective ensembl ID
+#create a data frame of HGNC symbol and the respective ensembl ID
 
 library(biomaRt)
 mart <- useMart("ensembl", dataset="hsapiens_gene_ensembl")
@@ -25,7 +21,7 @@ ensembl_count_files <- list.files(path="counts/ensembl_id/", pattern="*.tab", fu
 
 library(stringr)
 
-dir.create("counts/hg38")
+dir.create("hg38")
 
 lapply(ensembl_count_files, function(x) {
   
