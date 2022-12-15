@@ -1,3 +1,5 @@
+library(biomaRt)
+
 #to create raw count files with HGNC symbol from raw count files with ensembl ID#
 
 #read the ensembl ID of transcripts present in raw counts file
@@ -5,8 +7,6 @@
 ensembl_ids <- read.csv("2-1.ReadsPerGeneCol4.tab", sep="\t", header = FALSE)[,1]
 
 #create a data frame of HGNC symbol and the respective ensembl ID
-
-library(biomaRt)
 mart <- useMart("ensembl", dataset="hsapiens_gene_ensembl")
 attributes=c('ensembl_gene_id','hgnc_symbol')
 
