@@ -18,7 +18,7 @@ se_star2 <- DESeq(se_star)
 
 #create the object "res" with results of DGE between two time points, timepoints can be ajusted to compare different time points, i.e. Time_t2_vs_t1, Time_t3_vs_t1, etc
 res <- results(object = se_star2, name="Time_t6_vs_t1") # 
-
+?results
 #save results of DGE as .txt file
 write.table(res, "t6_vs_t1_deseq2_results.txt", quote=F, col.names=T, row.names=T, sep="\t") 
 
