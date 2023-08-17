@@ -19,10 +19,14 @@ se_star <- DESeqDataSetFromHTSeqCount(sampleTable = sampletable,
 se_star2 <- DESeq(se_star)
 
 
-#perfrom lfcshrink and write results of DGE analysis for two selected time points and save as text file
+#perform lfcshrink by specifying coefficient and using apeglm method
 
-resultsNames(se_star2)  #provides the name  of the coefficient for results, i.e. Time_t2_vs_t1, Time_t3_vs_t1, etc
+resultsNames(se_star2)  #provides the name of the coefficient for results, i.e. Time_t2_vs_t1, Time_t3_vs_t1, etc
 
 resLFC <- lfcShrink(se_star2, coef = "Time_t6_vs_t1" , type = "apeglm") 
 
+#save the results of DGE analysis for two selected time points as text file
+
 write.table(resLFC, "t6_vs_t1_deseq2_results.txt", quote=F, col.names=T, row.names=T, sep="\t") 
+
+#perform the above steps with different coefficients for DGE analysis between two time points
