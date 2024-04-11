@@ -7,7 +7,7 @@ copy paste the Title, doi, pubmed id, etc of the publication here
 ### Publication Abstract
 copy paste the abstract of the publication here
 
-### GEO Link to raw data: 
+### GEO Link to raw data 
 GSE250311\
 Link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE250311
 
