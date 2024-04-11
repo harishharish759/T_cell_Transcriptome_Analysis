@@ -9,7 +9,7 @@ what is this about?
 
 ### GEO Link to raw data: 
 GSE250311
-Link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE250311
+ Link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE250311
 ### requirements
 R (v..)
 DEseq2
