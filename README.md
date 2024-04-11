@@ -35,25 +35,28 @@ Data Processing
 
 Data Analysis 
   DGE
-     R Script- DEG, GO, and etc
+         R Script- DEG, GO, and etc
 	 TFEA
 	 PPI
 	 files
   
   HC	 
-     R Script- DEG, GO, and etc
+         R Script- DEG, GO, and etc
 	 TFEA
 	 PPI
 	 files
   
   Linc
-     R Script- DEG, GO, and etc
+         R Script- DEG, GO, and etc
 	 TFEA
 	 PPI
 	 files
+ ERCC
+         R Script
+         Files- excel
   ```  
     
-### Data files added
+### Result files added
 Raw count files
 	ercc.txt
 	ensembl.txt
