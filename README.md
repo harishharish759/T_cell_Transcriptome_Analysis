@@ -1,11 +1,11 @@
 # T_cell_Transcriptome_Analysis
-The scripts and software used for whole transcriptome data analysis of ex vivo T cells.
+The scripts and software used for whole transcriptome data analysis of ex vivo T cells. (Question for Max: do I mention here that the analysis script available here is also for the thesis)
 
 ### Associated Publication
-doi, pubmed id, etc
+copy paste the Title, doi, pubmed id, etc of the publication here
 
 ### Publication Abstract
-what is this about?
+copy paste the abstract of the publication here
 
 ### GEO Link to raw data: 
 GSE250311
