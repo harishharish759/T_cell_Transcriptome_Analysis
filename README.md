@@ -1,13 +1,15 @@
 # T_cell_Transcriptome_Analysis
-Script and software for T cell transcriptome analysis
+The scripts and software used for whole transcriptome data analysis of ex vivo T cells.
 
-### publication
+### Associated Publication
 doi, pubmed id, etc
 
-### Description
+### Publication Abstract
 what is this about?
 
-
+### GEO Link to raw data: 
+GSE250311
+Link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE250311
 ### requirements
 R (v..)
 DEseq2
