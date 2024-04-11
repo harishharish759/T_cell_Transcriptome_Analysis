@@ -56,9 +56,7 @@ Data Analysis
          Files- excel
   ```  
     
-### Result files added
-Raw count files
-	ercc.txt
-	ensembl.txt
+### Result files
+excel sheets of all genes, GO term, PPI, TF
 
 
