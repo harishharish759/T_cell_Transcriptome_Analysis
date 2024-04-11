@@ -22,29 +22,25 @@ R Programming language (4.2.2)\
 Cytoscape (3.9.1)\
 ChEA3 (3.0)
 
-### Data files added
-
-
-### Structure
+### Scripts
 ```
-Raw count files
-	ercc
-		.txt
-	ensembl
-		.txt
-scripts
-	processing
-		0_alignment.sh
-		1_counting.sh
-		...
-		3_ensembl_to_hgnc.R
-		4_dge_analysis.R
-		5_ercc_dge_analysis.R
+
+	Data Processing
+		01_star.sh
+		02_index_bam.sh
+		03_sort_bam.sh
+                04_filterBam.sh
+                05_count_htseq.sh
+        Data Analysis
+		06_dge_analysis.R
+		07_ercc_dge_analysis.R
 		6_split_ercc_from_native_genes.sh?
-	figures
-		cluster_and_heatmap.R
-		vulcano...
-		heatmap...
-		etc...
+	
   ```  
     
+### Data files added
+Raw count files
+	ercc.txt
+	ensembl.txt
+
+
