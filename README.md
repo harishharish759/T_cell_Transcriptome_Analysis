@@ -31,6 +31,7 @@ ChEA3 (3.0)
 		03_sort_bam.sh
                 04_filterBam.sh
                 05_count_htseq.sh
+                06_split_ercc.sh
         Data Analysis
 		06_dge_analysis.R
 		07_ercc_dge_analysis.R
