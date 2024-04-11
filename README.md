@@ -12,19 +12,15 @@ GSE250311\
 Link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE250311
 
 ### Software Requirements
-FastQC (v0.11.9)
-STAR aligner (v2.7.10b)
-Integrative Genomics Viewer (2.16.1)
-HTSeq-count (v2.0.2)
-Salmon (0.13.1)
-MultiQC (v1.15)
+FastQC (v0.11.9)\
+STAR aligner (v2.7.10b)\
+Integrative Genomics Viewer (2.16.1)\
+HTSeq-count (v2.0.2)\
+Salmon (0.13.1)\
+MultiQC (v1.15)\
 R Programming language (4.2.2)
-Cytoscape (3.9.1)
-ChEA3 (3.0) 
-
-
-
-...
+Cytoscape (3.9.1)\
+ChEA3 (3.0)\
 
 ### Structure
 ```
