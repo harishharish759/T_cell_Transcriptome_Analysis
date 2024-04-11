@@ -54,10 +54,11 @@ Data Analysis
  ERCC
          R Script
          Files- excel
-mutliQC-html
+
   ```  
     
 ### Result files
-excel sheets of all genes, GO term, PPI, TF
+excel sheets of all genes, GO term, PPI, TF\
+mutliQC-html
 
 
