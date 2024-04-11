@@ -9,8 +9,12 @@ what is this about?
 
 ### GEO Link to raw data: 
 GSE250311
- Link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE250311
-### requirements
+Link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE250311
+
+### Requirements
+#### Software
+
+#### R libraries 
 R (v..)
 DEseq2
 ...
