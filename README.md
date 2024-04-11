@@ -25,18 +25,32 @@ ChEA3 (3.0)
 ### Scripts
 ```
 
-	Data Processing
+Data Processing
 		01_star.sh
 		02_index_bam.sh
 		03_sort_bam.sh
                 04_filterBam.sh
                 05_count_htseq.sh
                 06_split_ercc.sh
-        Data Analysis
-		06_dge_analysis.R
-		07_ercc_dge_analysis.R
-		6_split_ercc_from_native_genes.sh?
-	
+
+Data Analysis 
+  DGE
+     R Script- DEG, GO, and etc
+	 TFEA
+	 PPI
+	 files
+  
+  HC	 
+     R Script- DEG, GO, and etc
+	 TFEA
+	 PPI
+	 files
+  
+  Linc
+     R Script- DEG, GO, and etc
+	 TFEA
+	 PPI
+	 files
   ```  
     
 ### Data files added
