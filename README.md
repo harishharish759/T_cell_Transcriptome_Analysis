@@ -54,6 +54,7 @@ Data Analysis
  ERCC
          R Script
          Files- excel
+mutliQC-html
   ```  
     
 ### Result files
